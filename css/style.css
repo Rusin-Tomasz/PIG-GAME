@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/grey_wash_wall/grey_wash_wall.png);
+    height: 100vh;
+    position: relative;
+    
+}
+
+.main-container {
+    position: absolute;
+    width: 70%;
+    height: 70vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid;
+}
+
+.players-cn {
+    position: absolute;
+    width: 30%;
+    height: 50%;
+    border: 2px solid;
+    top: 5%
+}
+
+.player-1-cn {
+    left:5%;
+}
+
+.player-2-cn {
+    right: 5%;
+}
+
+.temporary-score-cn {
+    position: absolute;
+    height: 25%;
+    width: 30%;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid;
+}
+
+
+button {
+    position: absolute;
+    
+}
+
+
+
+
+
+
