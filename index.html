@@ -3,28 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700|Work+Sans:100,200,300,400,500,600,700&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="font-awesome/font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="main-container">
-        <div class="player-1-cn players-cn">
-            <div class="player-1-name">Player 1</div>
-            <div class="player-1-score">0</div>
+        <div class="player-1-cn players-cn active">          
+            <div class="player-1-name names">Gracz1</div>
+            <div class="player-1-score scores">20</div>          
         </div> 
         <div class="player-2-cn players-cn">
-            <div class="player-2-name"></div>
-            <div class="player-2-score"></div>
+            <div class="player-2-name names">Gracz2</div>
+            <div class="player-2-score scores">0</div>
         </div>
         <div class="temporary-score-cn">
-            <div class="temporary-title">Wynik w obecnej rundzie</div>
+            <div class="temporary-title">Obecny wynik</div>
             <div class="temporary-score">0</div>
         </div>  
-        <button class="btn-newgame">New game</button>
-        <button class="hold-score">Hold Score</button>
-        <button class="roll">Roll</button>
-          
+        <button class="btn-newgame"><i class="fa fa-sign-in" aria-hidden="true"></i>Nowa gra</button>
+        <button class="btn-hold-score"><i class="fa fa-shield" aria-hidden="true"></i>Zatrzymaj</button>
+        <button class="btn-roll"><i class="fa fa-random" aria-hidden="true"></i>Losuj</button>
+         
+        <img src="img/dice-5.png" alt="Dice" class="dice"> 
     </div> 
+    
  <script src="js/js.js"></script>   
 </body>
 </html>
