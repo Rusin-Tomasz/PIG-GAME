@@ -125,7 +125,7 @@ button:focus {outline: none;}
 
 
 button,
-.dice{
+.dice {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);  

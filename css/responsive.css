@@ -36,12 +36,38 @@
     }
 
 
+    
+    
 }
 
 @media all and (max-width: 560px) {
     .player-1-cn,
-    .player-2-cn {
+    .player-2-cn{
         padding: 0;
     }
 
+    .winner {
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        
+    }
+      .winner .names {
+       width: 100%;
+      
+    }
+    
+    
+    @keyframes winner {
+    from {
+        color: #000;   
+    }
+    
+    to {
+        color: red;
+    }
+}
+    
 }
